@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="" method="post">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="nazwisko">Nazwisko:</label>
+        <input type="text" id="nazwisko" name="nazwisko"><br><br>
+
+        <label for="telefon">Telefon:</label>
+        <input type="tel" id="telefon" name="telefon"><br><br>
+
+        <label for="ulica">Ulica:</label>
+        <input type="text" id="ulica" name="ulica"><br><br>
+
+        <label for="miasto">Miasto:</label>
+        <input type="text" id="miasto" name="miasto"><br><br>
+
+        <label for="password">Hasło:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="adres">Adres:</label>
+        <input type="text" id="adres" name="adres"><br><br>
+
+        <label for="prawojazdy" >Prawo jazdy:</label>
+        <input type="checkbox" id="prawojazdy" name="prawojazdy"><br><br>
+
+        <label for="plec">Płeć:</label>
+        <input type="radio" id="plec_m" name="plec" value="mężczyzna">
+        <label for="plec_m">Mężczyzna</label>
+        <input type="radio" id="plec_k" name="plec" value="kobieta">
+        <label for="plec_k">Kobieta</label><br><br>
+
+        <label for="dataurodzenia" >Data urodzenia:</label>
+        <input type="date" id="dataurodzenia" name="dataurodzenia"><br><br>
+
+        <label for="uwagi">Uwagi:</label><br>
+        <textarea id="uwagi" name="uwagi" rows="4" cols="50"></textarea><br><br>
+
+        <label for="wojewodztwo">Województwo:</label>
+
+        <select id="wojewodztwo" name="wojewodztwo">
+            <option value="dolnoslaskie">Dolnośląskie</option>
+            <option value="kujawsko-pomorskie">Kujawsko-Pomorskie</option>
+            <option value="lubelskie">Lubelskie</option>
+            <option value="lubuskie">Lubuskie</option>
+            <option value="lodzkie">Łódzkie</option>
+            <option value="malopolskie">Małopolskie</option>
+            <option value="mazowieckie">Mazowieckie</option>
+            <option value="opolskie">Opolskie</option>
+            <option value="podkarpackie">Podkarpackie</option>
+            <option value="podlaskie">Podlaskie</option>
+            <option value="pomorskie">Pomorskie</option>
+            <option value="slaskie">Śląskie</option>
+            <option value="swietokrzyskie">Świętokrzyskie</option>
+            <option value="warminsko-mazurskie">Warmińsko-Mazurskie</option>
+            <option value="wielkopolskie">Wielkopolskie</option>
+            <option value="zachodniopomorskie">Zachodniopomorskie</option>
+        </select><br><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+</html>
