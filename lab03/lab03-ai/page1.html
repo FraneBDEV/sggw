@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Rejestracyjny - Glassmorphism</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="nav-brand">✨ GlassUI Lab</span>
+            <ul class="nav-links">
+                <li><a href="page1.html" class="active">Formularz</a></li>
+                <li><a href="page2.html">Teksty</a></li>
+                <li><a href="page3.html">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="center">
+        <div class="glass-form-card">
+            <h2>Formularz rejestracyjny</h2>
+            
+            <form action="" method="post">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="name">Imię</label>
+                        <input type="text" id="name" name="name" class="glass-input" placeholder="Wpisz swoje imię">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nazwisko">Nazwisko</label>
+                        <input type="text" id="nazwisko" name="nazwisko" class="glass-input" placeholder="Wpisz swoje nazwisko">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Adres e-mail</label>
+                        <input type="email" id="email" name="email" class="glass-input" placeholder="twoj@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefon">Numer telefonu</label>
+                        <input type="tel" id="telefon" name="telefon" class="glass-input" placeholder="+48 123 456 789">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Hasło</label>
+                        <input type="password" id="password" name="password" class="glass-input" placeholder="••••••••">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dataurodzenia">Data urodzenia</label>
+                        <input type="date" id="dataurodzenia" name="dataurodzenia" class="glass-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ulica">Ulica</label>
+                        <input type="text" id="ulica" name="ulica" class="glass-input" placeholder="np. Kwiatowa 12/4">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="miasto">Miasto</label>
+                        <input type="text" id="miasto" name="miasto" class="glass-input" placeholder="np. Warszawa">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="adres">Pełny adres korespondencyjny</label>
+                        <input type="text" id="adres" name="adres" class="glass-input" placeholder="Dodatkowe informacje adresowe...">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="wojewodztwo">Województwo</label>
+                        <select id="wojewodztwo" name="wojewodztwo" class="glass-select">
+                            <option value="dolnoslaskie">Dolnośląskie</option>
+                            <option value="kujawsko-pomorskie">Kujawsko-Pomorskie</option>
+                            <option value="lubelskie">Lubelskie</option>
+                            <option value="lubuskie">Lubuskie</option>
+                            <option value="lodzkie">Łódzkie</option>
+                            <option value="malopolskie">Małopolskie</option>
+                            <option value="mazowieckie">Mazowieckie</option>
+                            <option value="opolskie">Opolskie</option>
+                            <option value="podkarpackie">Podkarpackie</option>
+                            <option value="podlaskie">Podlaskie</option>
+                            <option value="pomorskie">Pomorskie</option>
+                            <option value="slaskie">Śląskie</option>
+                            <option value="swietokrzyskie">Świętokrzyskie</option>
+                            <option value="warminsko-mazurskie">Warmińsko-Mazurskie</option>
+                            <option value="wielkopolskie">Wielkopolskie</option>
+                            <option value="zachodniopomorskie">Zachodniopomorskie</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>Płeć</label>
+                        <div class="choice-row">
+                            <label class="radio-pill" for="plec_m">
+                                <input type="radio" id="plec_m" name="plec" value="mężczyzna">
+                                <span>Mężczyzna</span>
+                            </label>
+                            <label class="radio-pill" for="plec_k">
+                                <input type="radio" id="plec_k" name="plec" value="kobieta">
+                                <span>Kobieta</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>Uprawnienia</label>
+                        <div class="choice-row">
+                            <label class="checkbox-pill" for="prawojazdy">
+                                <input type="checkbox" id="prawojazdy" name="prawojazdy">
+                                <span>Posiadam prawo jazdy</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="uwagi">Uwagi dodatkowe</label>
+                        <textarea id="uwagi" name="uwagi" rows="3" class="glass-textarea" placeholder="Wpisz wszelkie dodatkowe uwagi..."></textarea>
+                    </div>
+                </div>
+
+                <button class="glass-btn" type="submit">Zarejestruj się</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
