@@ -1,0 +1,58 @@
+form {
+    width: min-content;
+    position: relative;
+    background-color: #f2f2f2;
+    margin: 5px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+form input {
+    position: absolute;
+    right: 10px;
+}
+form input[class="submit"] {
+    position: relative;
+    right: 0;
+}
+form label {
+    display: inline-block;
+    width: 100%;
+    right: 10px;
+}
+form h2 {
+    text-align: center;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+textarea {
+  resize: none;
+}
+.row {
+    width: 100vw;
+    display: flex;
+}
+.row p {
+    margin: 5px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.collumn {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+.collumn .block img {
+    width: 300px;
+    object-fit: contain;
+}

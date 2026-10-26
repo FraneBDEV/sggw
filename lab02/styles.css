@@ -1,0 +1,15 @@
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    font-size: 32px;
+}
+tr {
+    display: flex;
+}
+td {
+    margin: 10px;
+}
