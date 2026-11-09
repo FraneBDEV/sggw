@@ -1,0 +1,37 @@
+.container {
+
+}
+.kalkulator {
+    width: 400px;
+    background-color: #0000003c;  
+}
+.name {
+
+}
+.history {
+    
+}
+.display {
+    width: 100%;  
+    height: 50px;
+    text-align: right;
+}
+.buttons button {
+    width: 24%;
+    aspect-ratio: 2/1;
+    margin: 2px;
+    border: 2px solid #00000000;
+    border-radius: 5px;
+    padding: 0;
+}
+.buttons button:hover {
+    background-color: #0000003c;
+}
+.buttons button:active {
+    background-color: #0000006a;
+}
+.buttons {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}

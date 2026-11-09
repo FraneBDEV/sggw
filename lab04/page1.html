@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="kalkulator">
+            <div class="name">
+                <h1>Standardowy</h1>
+            </div>
+            <div class="history">
+
+            </div>
+            <div class="display" id="display">
+
+            </div>
+            <div class="buttons">
+                <button onclick="setActive('%')">%</button>
+                <button></button>
+                <button onclick="setActive('C')">C</button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button onclick="setActive('/')">/</button>
+                <button onclick="Join(7)">7</button>
+                <button onclick="Join(8)">8</button>
+                <button onclick="Join(9)">9</button>
+                <button onclick="setActive('*')">*</button>
+                <button onclick="Join(4)">4</button>
+                <button onclick="Join(5)">5</button>
+                <button onclick="Join(6)">6</button>
+                <button onclick="setActive('-')">-</button>
+                <button onclick="Join(1)">1</button>
+                <button onclick="Join(2)">2</button>
+                <button onclick="Join(3)">3</button>
+                <button onclick="setActive('+')">+</button>
+                <button></button>
+                <button onclick="Join(0)">0</button>
+                <button></button>
+                <button onclick="setActive('=')">=</button>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
